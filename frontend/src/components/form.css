@@ -1,0 +1,55 @@
+body{
+    /* background: #e46f4c;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #f57847, #4db34d);  Chrome 10-25, Safari 5.1-6
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to right,orange,white,green);
+}
+
+.form{
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    /* margin: 20px auto; */
+    padding: 20px;
+    margin-left: 100px;
+    margin-top:100px;
+    box-shadow:3px 3px 6px black ;
+    
+    /* height: 600px; */
+}
+
+
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form__input{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+}
+.form-check{
+  width: auto;
+
+}
+.menu{
+    padding: 6px;
+    width: 150px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,orange,white,green);
+}
+.Home{
+    background-image: linear-gradient(to right,orange,white,green);
+
+}

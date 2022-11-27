@@ -1,0 +1,37 @@
+.homeimage{
+    margin-top: 100px;
+    position: center;
+    -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+.heading1{
+    margin-bottom: 500px;
+}  
+.votinggif{
+  width: 400px;
+  position: fixed;
+  margin-top: 800px;
+  margin-block-start: 200px;
+  margin-left: 300px;
+}
+/* .evoting {
+  width: 100px;
+  height: 100px;
+  color: blue;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 500px;}
+} */

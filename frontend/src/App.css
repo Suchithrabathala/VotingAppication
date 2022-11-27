@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar-brand{
+  color: rgb(6, 0, 0);
+}
+.container-xl{
+ background-color: whitesmoke;
+ background-image: url("https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dm90ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+ background-repeat: no-repeat;
+ background-position: 100%;
+}
+.Home{
+  background-image: url("https://media.istockphoto.com/id/1283508282/photo/online-voting-hand-with-a-hologram-ballot-and-a-box-for-internet-voting-in-a-mobile-phone-on.jpg?b=1&s=170667a&w=0&k=20&c=Lw0HIbe5cIXPtWfrHJGuz2SYBInTMXKMr2-f7eTku2c=");
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+*{box-sizing: border-box;
+  
+}
+input[type=text], input[type=email], input[type=number], input[type=select], input[type=date],input[type=select],input[type=password], input[type=tel]
+{
+    width: 45%;
+    padding: 12px;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    resize: vertical;
+}
+textarea{
+    width:45%;
+    padding: 12px;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=radio],input[type=checkbox]{
+    width: 1%;
+    padding-left: 0%;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    resize: vertical;
+}
+h1{
+    font-family: Arial;
+    font-size: medium;
+    font-style: normal;
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:left;
+}
+input[type=submit]:hover {
+background-color: #32a336;
+}
+.container{
+    border-radius: 5px;
+    background-color:#f2f2f2;
+    padding: 20px;
+}
+.col-10{
+    float: left;
+    width:10%;
+    margin-top: 6px;
+}
+.col-90{
+    float: left;
+    width: 90%;
+    margin-top: 6px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .col-10,.col-90,input[type=submit]{
+        width: 100%;
+        margin-top: 0;
+    }
+}
+.image {
+  
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  float:right;
+  position: relative;
+  margin-right: 200px;
+  margin-top: 100px;
+
+}
+#voterimage{
+  size: 100%;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.card{
+  margin-top: 100px;
+}
